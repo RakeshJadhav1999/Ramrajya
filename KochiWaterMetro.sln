@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KochiWaterMetro", "KochiWaterMetro\KochiWaterMetro.csproj", "{03F5DC62-7208-4791-8307-A06339012909}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "KochiWaterMetroSetup", "KochiWaterMetroSetup\KochiWaterMetroSetup.vdproj", "{8D57CA33-1B83-4EC9-9193-B38DE519BF96}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebKochiWaterMetero", "WebKochiWaterMetero\WebKochiWaterMetero.csproj", "{2049E728-6B1A-4710-839D-61F7495F8B7C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "KochiWaterMetroWebSetup", "KochiWaterMetroWebSetup\KochiWaterMetroWebSetup.vdproj", "{8FDB9761-CC0D-41B7-88B5-67EADE5EAB6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LedDisplay_ClassLibrary", "LedDisplay_ClassLibrary\LedDisplay_ClassLibrary.csproj", "{41E19E6F-C1D9-4689-B4D3-9DD8085F095C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KWM_PAWindowsService", "KWM_PAWindowsService\KWM_PAWindowsService.csproj", "{53F8F21F-3679-4687-833F-81EE3AAFB594}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "KWMWindowServiceSetup", "KWMWindowService\KWMWindowService.vdproj", "{AC2590CB-237A-4747-BA24-3F8B4E49AF30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KochiWaterMetroOccPA", "KochiWaterMetroOccPA\KochiWaterMetroOccPA.csproj", "{A563AE39-A292-4A27-985F-B7C5BD32B379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FetchMasterDataOCC", "FetchMasterDataOCC\FetchMasterDataOCC.csproj", "{D686F08A-4F35-4DA6-AB2C-0A9D984BFF0A}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "FetchMasterDataSetup", "FetchMasterDataSetup\FetchMasterDataSetup.vdproj", "{096FA5CB-496F-49B2-B31C-117DAF997F47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03F5DC62-7208-4791-8307-A06339012909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03F5DC62-7208-4791-8307-A06339012909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03F5DC62-7208-4791-8307-A06339012909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03F5DC62-7208-4791-8307-A06339012909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D57CA33-1B83-4EC9-9193-B38DE519BF96}.Debug|Any CPU.ActiveCfg = Debug
+		{8D57CA33-1B83-4EC9-9193-B38DE519BF96}.Release|Any CPU.ActiveCfg = Release
+		{2049E728-6B1A-4710-839D-61F7495F8B7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2049E728-6B1A-4710-839D-61F7495F8B7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2049E728-6B1A-4710-839D-61F7495F8B7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2049E728-6B1A-4710-839D-61F7495F8B7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDB9761-CC0D-41B7-88B5-67EADE5EAB6C}.Debug|Any CPU.ActiveCfg = Debug
+		{8FDB9761-CC0D-41B7-88B5-67EADE5EAB6C}.Release|Any CPU.ActiveCfg = Release
+		{41E19E6F-C1D9-4689-B4D3-9DD8085F095C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41E19E6F-C1D9-4689-B4D3-9DD8085F095C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41E19E6F-C1D9-4689-B4D3-9DD8085F095C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41E19E6F-C1D9-4689-B4D3-9DD8085F095C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53F8F21F-3679-4687-833F-81EE3AAFB594}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53F8F21F-3679-4687-833F-81EE3AAFB594}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53F8F21F-3679-4687-833F-81EE3AAFB594}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53F8F21F-3679-4687-833F-81EE3AAFB594}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC2590CB-237A-4747-BA24-3F8B4E49AF30}.Debug|Any CPU.ActiveCfg = Debug
+		{AC2590CB-237A-4747-BA24-3F8B4E49AF30}.Release|Any CPU.ActiveCfg = Release
+		{A563AE39-A292-4A27-985F-B7C5BD32B379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A563AE39-A292-4A27-985F-B7C5BD32B379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A563AE39-A292-4A27-985F-B7C5BD32B379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A563AE39-A292-4A27-985F-B7C5BD32B379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D686F08A-4F35-4DA6-AB2C-0A9D984BFF0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D686F08A-4F35-4DA6-AB2C-0A9D984BFF0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D686F08A-4F35-4DA6-AB2C-0A9D984BFF0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D686F08A-4F35-4DA6-AB2C-0A9D984BFF0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{096FA5CB-496F-49B2-B31C-117DAF997F47}.Debug|Any CPU.ActiveCfg = Debug
+		{096FA5CB-496F-49B2-B31C-117DAF997F47}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {842A6F7D-4B4A-410F-BA2D-31BD2FD854BD}
+	EndGlobalSection
+EndGlobal
